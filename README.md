@@ -1,6 +1,6 @@
 # Why OCaml
 
-## What OCaml is Good for?
+## What is OCaml is Good for?
 
 1. Compilers / Static analysis
   - eg: Haxe, Facebooks flow for JS, 
@@ -13,7 +13,8 @@
 1. Maybe JavaScript via BuckleScript?
 1. When your code can't afford to blow up 
 
-## What OCaml NOT good for?
+
+## What is OCaml NOT good for?
 
 1. Parallelism (it's been in beta forever)
 1. Web dev (no railsy/sinatray framework yet)
