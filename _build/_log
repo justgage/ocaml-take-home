@@ -1,0 +1,11 @@
+### Starting build.
+# Target: examples/quick_sort.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:examples/quick_sort.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamldep -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules examples/quick_sort.ml > examples/quick_sort.ml.depends
+# Target: examples/quick_sort.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:examples/quick_sort.cmo, file:examples/quick_sort.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -I examples -o examples/quick_sort.cmo examples/quick_sort.ml
++ ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -I examples -o examples/quick_sort.cmo examples/quick_sort.ml
+File "examples/quick_sort.ml", line 9, characters 69-74:
+Error: This expression has type bool but an expression was expected of type
+         [ `Fst of 'a | `Snd of 'b ]
+Command exited with code 2.
+# Compilation unsuccessful.

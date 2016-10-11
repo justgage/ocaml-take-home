@@ -1,0 +1,97 @@
+"examples/quick_sort.ml" 7 361 369 "examples/quick_sort.ml" 7 361 378
+type(
+  '_a list -> '_b list
+)
+ident(
+  def quicksort "examples/quick_sort.ml" 7 361 361 "examples/quick_sort.ml" 1 0 -1
+)
+"examples/quick_sort.ml" 8 390 396 "examples/quick_sort.ml" 8 390 398
+type(
+  '_a list
+)
+"examples/quick_sort.ml" 8 390 402 "examples/quick_sort.ml" 8 390 404
+type(
+  '_b list
+)
+"examples/quick_sort.ml" 9 405 411 "examples/quick_sort.ml" 9 405 412
+type(
+  '_a
+)
+ident(
+  def x "examples/quick_sort.ml" 9 405 420 "examples/quick_sort.ml" 10 484 541
+)
+"examples/quick_sort.ml" 9 405 414 "examples/quick_sort.ml" 9 405 416
+type(
+  '_a list
+)
+ident(
+  def xs "examples/quick_sort.ml" 9 405 420 "examples/quick_sort.ml" 10 484 541
+)
+"examples/quick_sort.ml" 9 405 411 "examples/quick_sort.ml" 9 405 416
+type(
+  '_a list
+)
+"examples/quick_sort.ml" 9 405 424 "examples/quick_sort.ml" 9 405 431
+type(
+  '_c
+)
+ident(
+  def smaller "examples/quick_sort.ml" 10 484 502 "examples/quick_sort.ml" 10 484 541
+)
+"examples/quick_sort.ml" 9 405 433 "examples/quick_sort.ml" 9 405 439
+type(
+  '_d
+)
+ident(
+  def larger "examples/quick_sort.ml" 10 484 502 "examples/quick_sort.ml" 10 484 541
+)
+"examples/quick_sort.ml" 9 405 424 "examples/quick_sort.ml" 9 405 439
+type(
+  '_c * '_d
+)
+"examples/quick_sort.ml" 9 405 442 "examples/quick_sort.ml" 9 405 460
+type(
+  '_a list -> f:('_a -> [ `Fst of '_e | `Snd of '_f ]) -> '_e list * '_f list
+)
+ident(
+  ext_ref Core.Std.List.partition_map
+)
+"examples/quick_sort.ml" 9 405 469 "examples/quick_sort.ml" 9 405 470
+type(
+  '_a
+)
+ident(
+  def y "examples/quick_sort.ml" 9 405 474 "examples/quick_sort.ml" 9 405 479
+)
+"examples/quick_sort.ml" 9 405 474 "examples/quick_sort.ml" 9 405 475
+type(
+  '_a
+)
+ident(
+  int_ref y "examples/quick_sort.ml" 9 405 469 "examples/quick_sort.ml" 9 405 470
+)
+"examples/quick_sort.ml" 9 405 476 "examples/quick_sort.ml" 9 405 477
+type(
+  '_a -> '_a -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"examples/quick_sort.ml" 9 405 478 "examples/quick_sort.ml" 9 405 479
+type(
+  '_a
+)
+ident(
+  int_ref x "examples/quick_sort.ml" 9 405 411 "examples/quick_sort.ml" 9 405 412
+)
+"examples/quick_sort.ml" 9 405 474 "examples/quick_sort.ml" 9 405 479
+type(
+  bool
+)
+"examples/quick_sort.ml" 9 405 481 "examples/quick_sort.ml" 9 405 483
+type(
+  '_a list
+)
+ident(
+  int_ref xs "examples/quick_sort.ml" 9 405 414 "examples/quick_sort.ml" 9 405 416
+)
