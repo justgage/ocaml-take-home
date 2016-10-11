@@ -36,6 +36,7 @@
 
 Rules for getting started:
 
+- Install OCaml on OSX by following these instructions: <https://github.com/realworldocaml/book/wiki/Installation-Instructions#mac-os-x>
 - this is your bible: <https://realworldocaml.org/v1/en/html/index.html> Do not stray (much)
 - intall via the instrucitons found in the book
 - use `Core` made by JaneStreet. OCaml is incomplete without it
