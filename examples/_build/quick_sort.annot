@@ -1,0 +1,167 @@
+"quick_sort.ml" 8 362 366 "quick_sort.ml" 8 362 376
+type(
+  string list -> unit
+)
+ident(
+  def print_list "quick_sort.ml" 12 448 448 "quick_sort.ml" 1 0 -1
+)
+"quick_sort.ml" 8 362 377 "quick_sort.ml" 8 362 380
+type(
+  string list
+)
+ident(
+  def lst "quick_sort.ml" 9 383 385 "quick_sort.ml" 10 426 446
+)
+"quick_sort.ml" 9 383 385 "quick_sort.ml" 9 383 394
+type(
+  string list -> f:(string -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.List.iter
+)
+"quick_sort.ml" 9 383 395 "quick_sort.ml" 9 383 398
+type(
+  string list
+)
+ident(
+  int_ref lst "quick_sort.ml" 8 362 377 "quick_sort.ml" 8 362 380
+)
+"quick_sort.ml" 9 383 403 "quick_sort.ml" 9 383 416
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"quick_sort.ml" 9 383 417 "quick_sort.ml" 9 383 423
+type(
+  (string -> unit, out_channel, unit) format
+)
+"quick_sort.ml" 9 383 403 "quick_sort.ml" 9 383 423
+type(
+  string -> unit
+)
+"quick_sort.ml" 9 383 385 "quick_sort.ml" 9 383 424
+type(
+  unit
+)
+"quick_sort.ml" 10 426 428 "quick_sort.ml" 10 426 441
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"quick_sort.ml" 10 426 442 "quick_sort.ml" 10 426 446
+type(
+  (unit, out_channel, unit) format
+)
+"quick_sort.ml" 10 426 428 "quick_sort.ml" 10 426 446
+type(
+  unit
+)
+"quick_sort.ml" 9 383 385 "quick_sort.ml" 10 426 446
+type(
+  unit
+)
+"quick_sort.ml" 8 362 377 "quick_sort.ml" 10 426 446
+type(
+  string list -> unit
+)
+"quick_sort.ml" 12 448 456 "quick_sort.ml" 12 448 465
+type(
+  '_a list -> '_b list
+)
+ident(
+  def quicksort "quick_sort.ml" 12 448 448 "quick_sort.ml" 1 0 -1
+)
+"quick_sort.ml" 13 477 483 "quick_sort.ml" 13 477 485
+type(
+  '_a list
+)
+"quick_sort.ml" 13 477 489 "quick_sort.ml" 13 477 491
+type(
+  '_b list
+)
+"quick_sort.ml" 14 492 498 "quick_sort.ml" 14 492 499
+type(
+  '_a
+)
+ident(
+  def x "quick_sort.ml" 14 492 507 "quick_sort.ml" 20 679 696
+)
+"quick_sort.ml" 14 492 501 "quick_sort.ml" 14 492 503
+type(
+  '_a list
+)
+ident(
+  def xs "quick_sort.ml" 14 492 507 "quick_sort.ml" 20 679 696
+)
+"quick_sort.ml" 14 492 498 "quick_sort.ml" 14 492 503
+type(
+  '_a list
+)
+"quick_sort.ml" 14 492 511 "quick_sort.ml" 14 492 518
+type(
+  '_c
+)
+ident(
+  def smaller "quick_sort.ml" 15 571 589 "quick_sort.ml" 20 679 696
+)
+"quick_sort.ml" 14 492 520 "quick_sort.ml" 14 492 526
+type(
+  '_d
+)
+ident(
+  def larger "quick_sort.ml" 15 571 589 "quick_sort.ml" 20 679 696
+)
+"quick_sort.ml" 14 492 511 "quick_sort.ml" 14 492 526
+type(
+  '_c * '_d
+)
+"quick_sort.ml" 14 492 529 "quick_sort.ml" 14 492 547
+type(
+  '_a list -> f:('_a -> [ `Fst of '_e | `Snd of '_f ]) -> '_e list * '_f list
+)
+ident(
+  ext_ref Core.Std.List.partition_map
+)
+"quick_sort.ml" 14 492 556 "quick_sort.ml" 14 492 557
+type(
+  '_a
+)
+ident(
+  def y "quick_sort.ml" 14 492 561 "quick_sort.ml" 14 492 566
+)
+"quick_sort.ml" 14 492 561 "quick_sort.ml" 14 492 562
+type(
+  '_a
+)
+ident(
+  int_ref y "quick_sort.ml" 14 492 556 "quick_sort.ml" 14 492 557
+)
+"quick_sort.ml" 14 492 563 "quick_sort.ml" 14 492 564
+type(
+  '_a -> '_a -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"quick_sort.ml" 14 492 565 "quick_sort.ml" 14 492 566
+type(
+  '_a
+)
+ident(
+  int_ref x "quick_sort.ml" 14 492 498 "quick_sort.ml" 14 492 499
+)
+"quick_sort.ml" 14 492 561 "quick_sort.ml" 14 492 566
+type(
+  bool
+)
+"quick_sort.ml" 14 492 568 "quick_sort.ml" 14 492 570
+type(
+  '_a list
+)
+ident(
+  int_ref xs "quick_sort.ml" 14 492 501 "quick_sort.ml" 14 492 503
+)

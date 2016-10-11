@@ -1,0 +1,79 @@
+"01_hello_world.ml" 4 44 50 "01_hello_world.ml" 4 44 55
+type(
+  string -> unit
+)
+ident(
+  def greet "01_hello_world.ml" 13 232 234 "01_hello_world.ml" 15 266 269
+)
+"01_hello_world.ml" 4 44 56 "01_hello_world.ml" 4 44 60
+type(
+  string
+)
+ident(
+  def name "01_hello_world.ml" 5 64 68 "01_hello_world.ml" 5 64 99
+)
+"01_hello_world.ml" 5 64 68 "01_hello_world.ml" 5 64 81
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Core.Std.Printf.printf
+)
+"01_hello_world.ml" 5 64 82 "01_hello_world.ml" 5 64 94
+type(
+  (string -> unit, out_channel, unit) format
+)
+"01_hello_world.ml" 5 64 95 "01_hello_world.ml" 5 64 99
+type(
+  string
+)
+ident(
+  int_ref name "01_hello_world.ml" 4 44 56 "01_hello_world.ml" 4 44 60
+)
+"01_hello_world.ml" 5 64 68 "01_hello_world.ml" 5 64 99
+call(
+  tail
+)
+type(
+  unit
+)
+"01_hello_world.ml" 4 44 56 "01_hello_world.ml" 5 64 99
+type(
+  string -> unit
+)
+"01_hello_world.ml" 13 232 238 "01_hello_world.ml" 13 232 248
+type(
+  unit
+)
+ident(
+  def hello_word "01_hello_world.ml" 13 232 264 "01_hello_world.ml" 15 266 269
+)
+"01_hello_world.ml" 13 232 251 "01_hello_world.ml" 13 232 256
+type(
+  string -> unit
+)
+ident(
+  int_ref greet "01_hello_world.ml" 4 44 50 "01_hello_world.ml" 4 44 55
+)
+"01_hello_world.ml" 13 232 257 "01_hello_world.ml" 13 232 264
+type(
+  string
+)
+"01_hello_world.ml" 13 232 251 "01_hello_world.ml" 13 232 264
+call(
+  stack
+)
+type(
+  unit
+)
+"01_hello_world.ml" 18 302 308 "01_hello_world.ml" 18 302 310
+type(
+  unit
+)
+"01_hello_world.ml" 19 313 317 "01_hello_world.ml" 19 313 338
+type(
+  unit
+)
+ident(
+  int_ref HelloWordl.hello_word "01_hello_world.ml" 13 232 238 "01_hello_world.ml" 13 232 248
+)
